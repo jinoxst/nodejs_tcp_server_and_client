@@ -1,0 +1,11 @@
+{
+	"appenders":[{
+		"type": "dateFile",
+		"filename": "logs/tcp.log",
+		"pattern": "-yyyy-MM-dd",
+		"layout": {
+			"type": "pattern",
+			"pattern": "[%d] [%-5p] - %m"
+		}
+	}]
+}
